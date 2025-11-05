@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/dann1m.github.io/'
+  base: '/'
 })
