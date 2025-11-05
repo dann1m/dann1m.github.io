@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Gamepad2, Code, Palette, Box, Sparkles, ChevronDown, X, Briefcase, Award, Mail, Github, Linkedin } from 'lucide-react';
 import {SiPython} from "react-icons/si";
+import MovieClip from './MovieClip';
 
 
 import './App.css';
@@ -285,7 +286,8 @@ export default function Portfolio() {
 
         {/* Coming Soon Section */}
         <section className="pt-32 text-center px-6">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">Coming Soon</h1>
+          <MovieClip/>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 mt-6">Coming Soon</h1>
           <p className="text-xl text-stone-600 mb-8">
             My full art gallery is on my other portfolio website for now.
           </p>
@@ -585,7 +587,7 @@ export default function Portfolio() {
                 {[
                   { name: "C#", color: "bg-purple-500", icon: <i class="devicon-csharp-plain text-2xl"></i> },
                   { name: "Python", color: "bg-blue-500", icon: <SiPython className="w-5 h-5 text-white" />},
-                  { name: "C++", color: "bg-cyan-500", icon: <i class="devicon-cplusplus-plain text-2xl"></i> },
+                  { name: "HTML/CSS", color: "bg-cyan-500", icon:  <><i className="devicon-html5-plain"></i><i className="devicon-css3-plain"></i></> },
                   { name: "JavaScript", color: "bg-yellow-500", icon: <i class="devicon-javascript-plain text-2xl"></i> },
                   { name: "Java", color: "bg-orange-500", icon: <i class="devicon-java-plain text-2xl"></i> },
                   { name: "OCaml", color: "bg-green-500", icon: <i class="devicon-ocaml-plain text-2xl"></i> },
@@ -611,8 +613,8 @@ export default function Portfolio() {
                   { name: "Maya", color: "bg-teal-500", icon: <i class="devicon-maya-plain text-2xl"></i> },
                   { name: "Blender", color: "bg-orange-500", icon: <i class="devicon-blender-original text-2xl"></i> },
                   { name: "Git", color: "bg-orange-600", icon: <i class="devicon-github-original text-2xl"></i> },
-                  { name: "Node.js", color: "bg-green-600", icon: <i class="devicon-nodejs-plain text-2xl"></i> },
-                  { name: "Three.js", color: "bg-slate-500", icon: <i class="devicon-threejs-original text-2xl"></i> }
+                  { name: "Figma", color: "bg-purple-600", icon: <i class="devicon-figma-plain text-2xl"></i> },
+                  { name: "Photoshop", color: "bg-blue-500", icon: <i class="devicon-photoshop-plain text-2xl"></i> }
                 ].map((tech, i) => (
                   <div
                     key={i}
