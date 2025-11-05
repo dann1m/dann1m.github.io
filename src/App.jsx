@@ -588,7 +588,8 @@ export default function Portfolio() {
                   { name: "C++", color: "bg-cyan-500", icon: <i class="devicon-cplusplus-plain text-2xl"></i> },
                   { name: "JavaScript", color: "bg-yellow-500", icon: <i class="devicon-javascript-plain text-2xl"></i> },
                   { name: "Java", color: "bg-orange-500", icon: <i class="devicon-java-plain text-2xl"></i> },
-                  { name: "OCaml", color: "bg-green-500", icon: <i class="devicon-ocaml-plain text-2xl"></i> }
+                  { name: "OCaml", color: "bg-green-500", icon: <i class="devicon-ocaml-plain text-2xl"></i> },
+                  { name: "React", color: "bg-cyan-500", icon: <i class="devicon-react-original text-2xl"></i> },
                 ].map((lang, i) => (
                   <div
                     key={i}
@@ -611,7 +612,6 @@ export default function Portfolio() {
                   { name: "Blender", color: "bg-orange-500", icon: <i class="devicon-blender-original text-2xl"></i> },
                   { name: "Git", color: "bg-orange-600", icon: <i class="devicon-github-original text-2xl"></i> },
                   { name: "Node.js", color: "bg-green-600", icon: <i class="devicon-nodejs-plain text-2xl"></i> },
-                  { name: "React", color: "bg-cyan-500", icon: <i class="devicon-react-original text-2xl"></i> },
                   { name: "Three.js", color: "bg-slate-500", icon: <i class="devicon-threejs-original text-2xl"></i> }
                 ].map((tech, i) => (
                   <div
